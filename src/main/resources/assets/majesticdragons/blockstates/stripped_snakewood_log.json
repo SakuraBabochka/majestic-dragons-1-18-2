@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "majesticdragons:block/stripped_snakewood_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "majesticdragons:block/stripped_snakewood_log"
+    },
+    "axis=z": {
+      "model": "majesticdragons:block/stripped_snakewood_log_horizontal",
+      "x": 90
+    }
+  }
+}

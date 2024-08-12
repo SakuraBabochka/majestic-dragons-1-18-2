@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SNAKEWOOD_PLANKS = registerBlock("snakewood_planks",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+            ), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> SNAKEWOOD_LOG = registerBlock("snakewood_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            ), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> STRIPPED_SNAKEWOOD_LOG = registerBlock("stripped_snakewood_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
