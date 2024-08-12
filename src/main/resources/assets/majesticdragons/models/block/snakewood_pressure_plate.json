@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/template_fence_gate_wall_open",
+  "parent": "minecraft:block/pressure_plate_up",
   "textures": {
     "texture": "majesticdragons:block/snakefruit_planks"
   }

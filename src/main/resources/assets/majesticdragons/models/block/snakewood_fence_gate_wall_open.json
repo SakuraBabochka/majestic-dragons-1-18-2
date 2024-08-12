@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/button",
+  "parent": "minecraft:block/template_fence_gate_wall_open",
   "textures": {
     "texture": "majesticdragons:block/snakewood_planks"
   }

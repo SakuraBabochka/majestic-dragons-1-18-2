@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/fence_post",
   "textures": {
-    "texture": "majesticdragons:block/snakefruit_planks"
+    "texture": "majesticdragons:block/snakewood_planks"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "majesticdragons:block/snakewood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "majesticdragons:block/snakewood_pressure_plate_down"
+    }
+  }
+}

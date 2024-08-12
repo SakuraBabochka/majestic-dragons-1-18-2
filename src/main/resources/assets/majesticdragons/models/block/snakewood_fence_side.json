@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/button",
+  "parent": "minecraft:block/fence_side",
   "textures": {
     "texture": "majesticdragons:block/snakewood_planks"
   }
