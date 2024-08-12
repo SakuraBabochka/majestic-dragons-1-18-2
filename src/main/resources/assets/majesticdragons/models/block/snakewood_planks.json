@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "majesticdragons:block/snakewood_planks"
+  }
+}
