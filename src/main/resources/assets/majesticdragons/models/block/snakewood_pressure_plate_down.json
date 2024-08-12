@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_down",
   "textures": {
-    "texture": "majesticdragons:block/snakefruit_planks"
+    "texture": "majesticdragons:block/snakewood_planks"
   }
 }
