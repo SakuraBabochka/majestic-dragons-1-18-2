@@ -45,6 +45,9 @@ public class ModBlocks {
                     return null;
                 }
             }, ModTab.MAJESTICDRAGONS_TAB);
+    public static final RegistryObject<Block> SNAKEWOOD_FENCE = registerBlock("snakewood_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            ), ModTab.MAJESTICDRAGONS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
