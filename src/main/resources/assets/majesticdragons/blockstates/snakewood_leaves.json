@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "majesticdragons:block/snakewood_leaves_east"
+    },
+    "facing=north": {
+      "model": "majesticdragons:block/snakewood_leaves_north"
+    },
+    "facing=south": {
+      "model": "majesticdragons:block/snakewood_leaves_south"
+    },
+    "facing=west": {
+      "model": "majesticdragons:block/snakewood_leaves_west"
+    }
+  }
+}
