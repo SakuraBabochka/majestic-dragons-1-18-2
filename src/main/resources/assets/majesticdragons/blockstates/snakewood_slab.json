@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "majesticdragons:block/snakewood_slab"
+    },
+    "type=double": {
+      "model": "majesticdragons:block/snakewood_planks"
+    },
+    "type=top": {
+      "model": "majesticdragons:block/snakewood_slab_top"
+    }
+  }
+}
