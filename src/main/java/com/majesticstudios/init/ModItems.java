@@ -1,6 +1,6 @@
-package com.majesticstudios.item;
+package com.majesticstudios.init;
 
-import com.majesticstudios.majesticdragons.MajesticDragons;
+import com.majesticstudios.MajesticDragons;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
