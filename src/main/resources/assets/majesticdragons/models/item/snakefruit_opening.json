@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "majesticdragons:item/snakefruit"
+    "layer0": "majesticdragons:item/snakefruit_opening"
   }
 }
