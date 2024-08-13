@@ -28,6 +28,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> STRIPPED_SNAKEWOOD_LOG = registerBlock("stripped_snakewood_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+    public static final RegistryObject<Block> SNAKEWOOD_WOOD = registerBlock("snakewood_wood",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            ), ModTab.MAJESTICDRAGONS_TAB);
+    public static final RegistryObject<Block> STRIPPED_SNAKEWOOD_WOOD = registerBlock("stripped_snakewood_wood",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            ), ModTab.MAJESTICDRAGONS_TAB);
     public static final RegistryObject<Block> SNAKEWOOD_TRAPDOOR = registerBlock("snakewood_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);

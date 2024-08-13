@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "majesticdragons:block/snakewood_log",
+    "side": "majesticdragons:block/snakewood_log"
+  }
+}
