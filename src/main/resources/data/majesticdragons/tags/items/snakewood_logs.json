@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:snakewood_log",
+    "minecraft:snakewood_wood",
+    "minecraft:stripped_snakewood_log",
+    "minecraft:stripped_snakewood_wood"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "majesticdragons:block/snakewood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "majesticdragons:block/snakewood_wood"
+    },
+    "axis=z": {
+      "model": "majesticdragons:block/snakewood_wood",
+      "x": 90
+    }
+  }
+}
