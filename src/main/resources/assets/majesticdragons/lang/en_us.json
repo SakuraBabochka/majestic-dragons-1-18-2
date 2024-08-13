@@ -1,4 +1,6 @@
 {
+  "item.majesticdragons.scalecrow_spawn_egg": "Scalecrow Spawn Egg",
+
   "block.majesticdragons.snakewood_planks": "Snakewood Planks",
   "block.majesticdragons.snakewood_log": "Snakewood Log",
   "block.majesticdragons.stripped_snakewood_log": "Stripped Snakewood Log",
@@ -7,6 +9,8 @@
   "block.majesticdragons.snakewood_leaves": "Snakewood Leaves",
   "block.majesticdragons.snakewood_button": "Snakewood Button",
   "block.majesticdragons.snakewood_fence": "Snakewood Fence",
+
+  "entity.majesticdragons.scalecrow": "Scalecrow",
 
   "itemGroup.majesticdragons_tab": "Majestic Dragons"
 }
