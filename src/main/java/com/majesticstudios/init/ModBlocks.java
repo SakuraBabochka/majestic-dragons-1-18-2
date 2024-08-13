@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.grower.AbstractTreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -66,6 +67,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> SNAKEWOOD_DOOR = registerBlock("snakewood_door",
             () -> new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+    public static final RegistryObject<Block> SNAKEWOOD_SAPLING = registerBlock("snakewood_sapling",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+            ), ModTab.MAJESTICDRAGONS_TAB);
+    //This item should be a sapling. Return later with understanding of AbstractTreeGrower to make it so.
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
