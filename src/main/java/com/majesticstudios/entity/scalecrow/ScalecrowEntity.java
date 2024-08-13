@@ -28,12 +28,12 @@ public class ScalecrowEntity extends TamableAnimal implements IAnimatable {
 
     public static AttributeSupplier.Builder bakeAttributes() {
         return Mob.createMobAttributes()
-                .add(Attributes.MAX_HEALTH, 100.0)
-                .add(Attributes.ARMOR_TOUGHNESS, 16.0)
-                .add(Attributes.MOVEMENT_SPEED, 0.22)
-                .add(Attributes.FLYING_SPEED, 0.14)
+                .add(Attributes.MAX_HEALTH, 20.0)
+                .add(Attributes.ARMOR_TOUGHNESS, 11.0)
+                .add(Attributes.MOVEMENT_SPEED, 0.14)
+                .add(Attributes.FLYING_SPEED, 0.22)
                 .add(Attributes.ATTACK_DAMAGE, 8.0)
-                .add(Attributes.FOLLOW_RANGE, 100F)
+                .add(Attributes.FOLLOW_RANGE, 120F)
                 .add(ForgeMod.SWIM_SPEED.get(), 0.8F)
                 .add(Attributes.ARMOR, 4);
     }
