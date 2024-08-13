@@ -54,6 +54,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SNAKEWOOD_PRESSURE_PLATE = registerBlock("snakewood_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+    public static final RegistryObject<Block> SNAKEWOOD_SLAB = registerBlock("snakewood_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            ), ModTab.MAJESTICDRAGONS_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
