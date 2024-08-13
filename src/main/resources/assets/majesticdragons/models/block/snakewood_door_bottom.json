@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom",
+  "textures": {
+    "top": "majesticdragons:block/snakewood_door_top",
+    "bottom": "majesticdragons:block/snakewood_door_bottom"
+  }
+}
