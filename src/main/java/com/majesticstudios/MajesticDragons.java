@@ -54,6 +54,7 @@ public class MajesticDragons {
     private void clientSetup(final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SNAKEWOOD_DOOR.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SNAKEWOOD_TRAPDOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SNAKEWOOD_CROWN.get(), RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event) {
