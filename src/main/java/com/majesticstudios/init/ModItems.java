@@ -26,11 +26,11 @@ public class ModItems {
                     .tab(ModTab.MAJESTICDRAGONS_TAB)
                     .stacksTo(64)));
 
-    public static final RegistryObject<Item> SNAKEFRUIT =
+    public static final RegistryObject<Item> SNAKEFRUIT_OPEN =
             ITEMS.register("snakefruit_open", () -> new Item(new Item.Properties()
                     .tab(ModTab.MAJESTICDRAGONS_TAB)
-                    .stacksTo(64)));
-    //This item should be food. Return later with understanding of food property to make it so.
+                    .stacksTo(64)
+                    .food(ModFoods.SNAKEFRUIT_OPEN)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

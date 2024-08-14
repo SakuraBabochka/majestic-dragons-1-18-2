@@ -23,29 +23,37 @@ public class ModBlocks {
     public static final RegistryObject<Block> SNAKEWOOD_PLANKS = registerBlock("snakewood_planks",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_LOG = registerBlock("snakewood_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> STRIPPED_SNAKEWOOD_LOG = registerBlock("stripped_snakewood_log",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_WOOD = registerBlock("snakewood_wood",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> STRIPPED_SNAKEWOOD_WOOD = registerBlock("stripped_snakewood_wood",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_TRAPDOOR = registerBlock("snakewood_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .noOcclusion()
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_CROWN = registerBlock("snakewood_crown",
             () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.LEAVES)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_LEAVES = registerBlock("snakewood_leaves",
             () -> new HorizontalDirectionalBlock(BlockBehaviour.Properties.of(Material.LEAVES)
             ) {
             }, ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_BUTTON = registerBlock("snakewood_button",
             () -> new ButtonBlock(true, BlockBehaviour.Properties.of(Material.WOOD)) {
                 @Override
@@ -53,25 +61,32 @@ public class ModBlocks {
                     return null;
                 }
             }, ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_FENCE = registerBlock("snakewood_fence",
             () -> new FenceBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_FENCE_GATE = registerBlock("snakewood_fence_gate",
             () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_PRESSURE_PLATE = registerBlock("snakewood_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_SLAB = registerBlock("snakewood_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_DOOR = registerBlock("snakewood_door",
             () -> new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .noOcclusion()
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     public static final RegistryObject<Block> SNAKEWOOD_SAPLING = registerBlock("snakewood_sapling",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
+
     //This item should be a sapling. Return later with understanding of AbstractTreeGrower to make it so.
     public static final RegistryObject<Block> SNAKEWOOD_STAIRS = registerBlock("snakewood_stairs",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
