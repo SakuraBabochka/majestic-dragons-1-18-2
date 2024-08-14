@@ -1,4 +1,4 @@
-package com.majesticstudios.customclasses;
+package com.majesticstudios.customblockclasses;
 
 import com.majesticstudios.init.ModBlocks;
 import net.minecraft.core.BlockPos;

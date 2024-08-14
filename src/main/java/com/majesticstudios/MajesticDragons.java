@@ -1,5 +1,6 @@
 package com.majesticstudios;
 
+import com.majesticstudios.entity.ModBlockEntities;
 import com.majesticstudios.init.ModBlocks;
 import com.majesticstudios.init.ModEntities;
 import com.majesticstudios.init.ModItems;
@@ -33,6 +34,7 @@ public class MajesticDragons {
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
         ModEntities.register(eventBus);
+        ModBlockEntities.register(eventBus);
 
         PROXY.init();
 

@@ -1,13 +1,12 @@
 package com.majesticstudios.init;
 
 import com.majesticstudios.MajesticDragons;
-import com.majesticstudios.customclasses.ModFlammableRotatedPillarBlock;
+import com.majesticstudios.customblockclasses.ModFlammableRotatedPillarBlock;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.grower.AbstractTreeGrower;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
