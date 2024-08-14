@@ -1,6 +1,7 @@
 package com.majesticstudios.init;
 
 import com.majesticstudios.MajesticDragons;
+import com.majesticstudios.customclasses.ModFlammableRotatedPillarBlock;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -25,19 +26,19 @@ public class ModBlocks {
             ), ModTab.MAJESTICDRAGONS_TAB);
 
     public static final RegistryObject<Block> SNAKEWOOD_LOG = registerBlock("snakewood_log",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
 
     public static final RegistryObject<Block> STRIPPED_SNAKEWOOD_LOG = registerBlock("stripped_snakewood_log",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
 
     public static final RegistryObject<Block> SNAKEWOOD_WOOD = registerBlock("snakewood_wood",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
 
     public static final RegistryObject<Block> STRIPPED_SNAKEWOOD_WOOD = registerBlock("stripped_snakewood_wood",
-            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
 
     public static final RegistryObject<Block> SNAKEWOOD_TRAPDOOR = registerBlock("snakewood_trapdoor",
@@ -87,8 +88,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> SNAKEWOOD_SAPLING = registerBlock("snakewood_sapling",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
-
     //This item should be a sapling. Return later with understanding of AbstractTreeGrower to make it so.
+
     public static final RegistryObject<Block> SNAKEWOOD_STAIRS = registerBlock("snakewood_stairs",
             () -> new StairBlock(() -> ModBlocks.SNAKEWOOD_PLANKS.get().defaultBlockState(),
                     BlockBehaviour.Properties.of(Material.WOOD)
