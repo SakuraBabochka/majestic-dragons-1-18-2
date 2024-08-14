@@ -55,7 +55,8 @@ public class ModBlocks {
             }, ModTab.MAJESTICDRAGONS_TAB);
 
     public static final RegistryObject<Block> SNAKEWOOD_BUTTON = registerBlock("snakewood_button",
-            () -> new ButtonBlock(true, BlockBehaviour.Properties.of(Material.WOOD)) {
+            () -> new ButtonBlock(true, BlockBehaviour.Properties.of(Material.WOOD)
+                    .noCollission()) {
                 @Override
                 protected SoundEvent getSound(boolean pIsPressed) {
                     return null;

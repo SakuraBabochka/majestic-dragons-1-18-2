@@ -6,6 +6,8 @@ import com.majesticstudios.init.ModItems;
 import com.majesticstudios.proxy.ClientProxy;
 import com.majesticstudios.proxy.CommonProxy;
 import com.mojang.logging.LogUtils;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -41,11 +43,17 @@ public class MajesticDragons {
 
         // Register ourselves for server and other game events we are interested in
         eventBus.addListener(this::setupClient);
+        eventBus.addListener(this::clientSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setupClient(final FMLClientSetupEvent event) {
         event.enqueueWork(() -> PROXY.clientInit());
+    }
+
+    private void clientSetup(final FMLClientSetupEvent event) {
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SNAKEWOOD_DOOR.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SNAKEWOOD_TRAPDOOR.get(), RenderType.cutout());
     }
 
     private void setup(final FMLCommonSetupEvent event) {
