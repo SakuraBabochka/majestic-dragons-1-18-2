@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "majesticdragons:snakewood_planks"
+    }
+  ],
+  "result": {
+    "item": "majesticdragons:snakewood_button"
+  }
+}

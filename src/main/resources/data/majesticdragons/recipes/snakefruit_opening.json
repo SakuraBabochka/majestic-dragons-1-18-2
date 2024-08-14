@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "majesticdragons:snakewood_sapling"
+  },
+  "result": "majesticdragons:snakefruit_opening",
+  "experience": 0.35,
+  "cookingtime": 200
+}

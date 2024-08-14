@@ -37,6 +37,7 @@ public class ModBlocks {
             ), ModTab.MAJESTICDRAGONS_TAB);
     public static final RegistryObject<Block> SNAKEWOOD_TRAPDOOR = registerBlock("snakewood_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .noOcclusion()
             ), ModTab.MAJESTICDRAGONS_TAB);
     public static final RegistryObject<Block> SNAKEWOOD_CROWN = registerBlock("snakewood_crown",
             () -> new CarpetBlock(BlockBehaviour.Properties.of(Material.LEAVES)
@@ -66,11 +67,16 @@ public class ModBlocks {
             ), ModTab.MAJESTICDRAGONS_TAB);
     public static final RegistryObject<Block> SNAKEWOOD_DOOR = registerBlock("snakewood_door",
             () -> new DoorBlock(BlockBehaviour.Properties.of(Material.WOOD)
+                    .noOcclusion()
             ), ModTab.MAJESTICDRAGONS_TAB);
     public static final RegistryObject<Block> SNAKEWOOD_SAPLING = registerBlock("snakewood_sapling",
             () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
     //This item should be a sapling. Return later with understanding of AbstractTreeGrower to make it so.
+    public static final RegistryObject<Block> SNAKEWOOD_STAIRS = registerBlock("snakewood_stairs",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+            ), ModTab.MAJESTICDRAGONS_TAB);
+    // This item should be a stair block. Return later with understanding of stair code to make it so.
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
