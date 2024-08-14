@@ -89,9 +89,9 @@ public class ModBlocks {
 
     //This item should be a sapling. Return later with understanding of AbstractTreeGrower to make it so.
     public static final RegistryObject<Block> SNAKEWOOD_STAIRS = registerBlock("snakewood_stairs",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+            () -> new StairBlock(() -> ModBlocks.SNAKEWOOD_PLANKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.WOOD)
             ), ModTab.MAJESTICDRAGONS_TAB);
-    // This item should be a stair block. Return later with understanding of stair code to make it so.
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
